@@ -54,8 +54,7 @@ export const projects: Project[] = [
     gallery: [
       { type: "image", src: "/work/hareg-agelgl/cover.jpg" },
       { type: "image", src: "/work/hareg-agelgl/1.jpg" },
-      { type: "image", src: "/work/hareg-agelgl/2.jpg" },
-      { type: "image", src: "/work/hareg-agelgl/3.jpg" },
+      { type: "image", src: "/work/hareg-agelgl/2.png" },
     ],
     summary:
       "Bilingual social media campaign for a traditional Ethiopian catering business, showcasing their handmade dishes and booking details for the holiday season.",
@@ -74,9 +73,7 @@ export const projects: Project[] = [
     cover: "/work/hyper-security/cover.jpg",
     gallery: [
       { type: "image", src: "/work/hyper-security/cover.jpg" },
-      { type: "image", src: "/work/hyper-security/2.jpg" },
-      { type: "image", src: "/work/hyper-security/3.jpg" },
-      { type: "image", src: "/work/hyper-security/4.jpg" },
+      { type: "image", src: "/work/hyper-security/1.jpg" },
     ],
     summary:
       "Bilingual product ad series for a home-security camera brand — consistent blue brand system across product shots and Amharic promotional copy.",
@@ -94,8 +91,8 @@ export const projects: Project[] = [
     cover: "/work/sami-frame/cover.jpg",
     gallery: [
       { type: "image", src: "/work/sami-frame/cover.jpg" },
-      { type: "image", src: "/work/sami-frame/2.jpg" },
-      { type: "image", src: "/work/sami-frame/3.jpg" },
+      { type: "image", src: "/work/sami-frame/1.jpg" },
+      { type: "image", src: "/work/sami-frame/2.png" },
     ],
     summary:
       "Gold-accented brand identity and social ad set for a custom photo-framing and canvas studio, built around their 'frame the moment' tagline.",
@@ -113,19 +110,38 @@ export const projects: Project[] = [
     cover: "/work/welland-industry/cover.jpg",
     gallery: [
       { type: "image", src: "/work/welland-industry/cover.jpg" },
+      { type: "image", src: "/work/welland-industry/1.png" },
       { type: "image", src: "/work/welland-industry/2.jpg" },
       { type: "image", src: "/work/welland-industry/3.jpg" },
-      { type: "image", src: "/work/welland-industry/4.png" },
     ],
     summary:
       "Industrial B2B ad campaign for a HDPE raw-material and pipe manufacturer, translating technical product info into clear bilingual visuals.",
     role: "Graphic Designer",
     tools: ["Photoshop", "Illustrator"],
   },
+  {
+    id: 5,
+    title: "Nana Digital",
+    client: "Nana Digital — Digital marketing agency",
+    category: "Graphic Design",
+    aspect: "4:5",
+    year: "2026",
+    isRealClient: true,
+    cover: "/work/nana-digital/cover.png",
+    gallery: [
+      { type: "image", src: "/work/nana-digital/cover.png" },
+      { type: "image", src: "/work/nana-digital/1.png" },
+      { type: "image", src: "/work/nana-digital/2.png" },
+    ],
+    summary:
+      "Bilingual social media ad campaign for a digital marketing agency, showcasing their services and client success stories in a clean, modern visual style.",
+    role: "Graphic Designer",
+    tools: ["Photoshop", "Illustrator"],
+  },
 
   // ---- Motion / video work ----
   {
-    id: 5,
+    id: 6,
     title: "Delicious Burger — Campaign",
     client: "Delicious Burger (spec campaign)",
     category: "Motion Graphics",
@@ -136,10 +152,10 @@ export const projects: Project[] = [
     gallery: [
       { type: "video", src: "/work/delicious-burger/video.mp4" },
       { type: "image", src: "/work/delicious-burger/cover.jpg" },
+      { type: "image", src: "/work/delicious-burger/1.jpg" },
       { type: "image", src: "/work/delicious-burger/2.jpg" },
       { type: "image", src: "/work/delicious-burger/3.jpg" },
       { type: "image", src: "/work/delicious-burger/4.jpg" },
-      { type: "image", src: "/work/delicious-burger/5.jpg" },
     ],
     summary:
       "A full ad campaign built around one burger brand — static social posts paired with a short animated promo, exploring one product across formats.",
@@ -147,7 +163,7 @@ export const projects: Project[] = [
     tools: ["Photoshop", "After Effects", "Premiere Pro"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Pepsi — Motion Ad",
     client: "Pepsi (spec ad)",
     category: "Motion Graphics",
@@ -161,7 +177,7 @@ export const projects: Project[] = [
     tools: ["After Effects"],
   },
   {
-    id: 7,
+    id: 8,
     title: "LIME — Motion Ad",
     client: "Lime (spec ad)",
     category: "Motion Graphics",
@@ -174,7 +190,7 @@ export const projects: Project[] = [
     tools: ["After Effects"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Ht Cosmo — Motion Ad",
     client: "Ht Cosmo (spec ad)",
     category: "Motion Graphics",
@@ -189,7 +205,7 @@ export const projects: Project[] = [
 
   // ---- Spec / practice product ads (Graphic Design) ----
   {
-    id: 9,
+    id: 10,
     title: "Kiya Car Rental",
     client: "Kiya Car Rental (spec ad)",
     category: "Graphic Design",
@@ -202,7 +218,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 10,
+    id: 11,
     title: "Reveal Perfume",
     client: "Reveal Perfume (spec ad)",
     category: "Graphic Design",
@@ -211,15 +227,15 @@ export const projects: Project[] = [
     cover: "/work/reveal-perfume/cover.jpg",
     gallery: [
       { type: "image", src: "/work/reveal-perfume/cover.jpg" },
+      { type: "image", src: "/work/reveal-perfume/1.jpg" },
       { type: "image", src: "/work/reveal-perfume/2.jpg" },
-      { type: "image", src: "/work/reveal-perfume/3.jpg" },
     ],
     summary: "A purple-toned perfume ad series exploring glass-bottle product rendering and elegant serif type.",
     role: "Graphic Designer",
     tools: ["Photoshop", "Illustrator"],
   },
   {
-    id: 11,
+    id: 12,
     title: "Babi Furniture",
     client: "Babi Furniture (spec ad)",
     category: "Graphic Design",
@@ -232,7 +248,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 12,
+    id: 13,
     title: "Delicious Donut",
     client: "Delicious Donut (spec ad)",
     category: "Graphic Design",
@@ -245,7 +261,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 13,
+    id: 14,
     title: "Ayi Jewellery",
     client: "Ayi Jewellery (spec ad)",
     category: "Graphic Design",
@@ -258,7 +274,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 14,
+    id: 15,
     title: "Maki Cream",
     client: "Maki Cream (spec ad)",
     category: "Graphic Design",
@@ -267,14 +283,14 @@ export const projects: Project[] = [
     cover: "/work/maki-cream/cover.jpg",
     gallery: [
       { type: "image", src: "/work/maki-cream/cover.jpg" },
-      { type: "image", src: "/work/maki-cream/2.jpg" },
+      { type: "image", src: "/work/maki-cream/1.jpg" },
     ],
     summary: "Cosmetic product ad and clean studio mockup for a skincare cream jar.",
     role: "Graphic Designer",
     tools: ["Photoshop"],
   },
   {
-    id: 15,
+    id: 16,
     title: "Liyu Lotion",
     client: "Liyu Lotion (spec ad)",
     category: "Graphic Design",
@@ -287,7 +303,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 16,
+    id: 17,
     title: "Best Serum",
     client: "Best Serum (spec ad)",
     category: "Graphic Design",
@@ -300,7 +316,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 17,
+    id: 18,
     title: "Etenu Perfume",
     client: "Etenu Perfume (spec ad)",
     category: "Graphic Design",
@@ -313,7 +329,7 @@ export const projects: Project[] = [
     tools: ["Photoshop", "Illustrator"],
   },
   {
-    id: 18,
+    id: 19,
     title: "Pink Girl — Assaf",
     client: "Assaf Perfume (spec ad)",
     category: "Graphic Design",
@@ -326,7 +342,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 19,
+    id: 20,
     title: "Kaldis Coffee",
     client: "Kaldis Coffee (spec ad)",
     category: "Graphic Design",
@@ -335,8 +351,7 @@ export const projects: Project[] = [
     cover: "/work/kaldis-coffee/cover.jpg",
     gallery: [
       { type: "image", src: "/work/kaldis-coffee/cover.jpg" },
-      { type: "image", src: "/work/kaldis-coffee/2.jpg" },
-      { type: "image", src: "/work/kaldis-coffee/3.jpg" },
+      { type: "image", src: "/work/kaldis-coffee/1.jpg" },
     ],
     summary:
       "A coffee-brand campaign spanning a surreal photo-manipulation piece and product ad variations exploring splash photography.",
@@ -344,7 +359,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 20,
+    id: 21,
     title: "Pro Gaming Headphone",
     client: "Tech accessories (spec ad)",
     category: "Graphic Design",
@@ -357,7 +372,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 21,
+    id: 22,
     title: "Step With Style",
     client: "Footwear (spec ad)",
     category: "Graphic Design",
@@ -370,7 +385,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 22,
+    id: 23,
     title: "EBS Furniture",
     client: "EBS Furniture (spec ad)",
     category: "Graphic Design",
@@ -383,7 +398,7 @@ export const projects: Project[] = [
     tools: ["Photoshop"],
   },
   {
-    id: 23,
+    id: 24,
     title: "Fanta — Product Render",
     client: "Fanta (spec render)",
     category: "Graphic Design",
