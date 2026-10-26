@@ -48,7 +48,6 @@ export const projects: Project[] = [
     category: "Graphic Design",
     aspect: "4:5",
     year: "2026",
-    featured: true,
     isRealClient: true,
     cover: "/work/hareg-agelgl/cover.png",
     gallery: [
