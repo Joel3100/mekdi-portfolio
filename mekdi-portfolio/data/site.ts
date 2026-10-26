@@ -505,6 +505,7 @@ export const projects: Project[] = [
     year: "2026",
     isRealClient: true,
     cover: "/work/welland-industry-video/cover.mp4",
+    gallery: [],
     summary: "A collection of video edits presenting Welland Industry's products and manufacturing work.",
     role: "Video Editor",
     tools: ["Premiere Pro", "After Effects"],
