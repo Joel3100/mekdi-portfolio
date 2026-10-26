@@ -13,13 +13,26 @@ export default function ProjectCard({
       onClick={onClick}
       className="group relative aspect-[4/5] overflow-hidden rounded-xl text-left"
     >
-      <Image
-        src={project.cover}
-        alt={project.title}
-        fill
-        sizes="(max-width: 768px) 90vw, 400px"
-        className="object-cover transition-transform duration-500 group-hover:scale-105"
-      />
+      {project.cover.endsWith(".mp4") ? (
+        <video
+          src={project.cover}
+          muted
+          loop
+          autoPlay
+          playsInline
+          aria-label={project.title}
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+      ) : (
+        <Image
+          src={project.cover}
+          alt={project.title}
+          fill
+          sizes="(max-width: 768px) 90vw, 400px"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+      )}
+      
       <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/10 to-ink/20 transition-colors group-hover:from-ink/90" />
 
       <div className="absolute left-3 top-3 flex gap-2">
